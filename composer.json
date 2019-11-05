@@ -1,0 +1,22 @@
+{
+  "name": "raduardeleanu91/module-checkout-task",
+  "description": "A Magento 2 module that adds functionality around a new checkout field.",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "require": {
+    "php": "~7.0.0|~7.1.0|~7.2.0|~7.3.0",
+    "magento/framework": ">=102.0.3"
+  },
+  "authors": [
+    {
+      "name": "Radu Ardeleanu",
+      "email": "raduardeleanu91@gmail.com"
+    }
+  ],
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Checkout\\Task\\": ""
+    }
+  }
+}

@@ -1,0 +1,12 @@
+<section class="admin__page-section">
+    <div class="admin__page-section-title">
+        <span class="title"><?= $block->escapeHtml(__('External Order Id')) ?></span>
+    </div>
+    <div class="admin__page-section-content">
+        <div class="admin__page-section-item">
+            <div class="admin__page-section-item-title">
+                <span class="title"><?= $block->getCurrentOrder()->getExternalOrderId(); ?></span>
+            </div>
+        </div>
+    </div>
+</section>
